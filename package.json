@@ -1,0 +1,21 @@
+{
+  "name"         : "commento-scraper-webapp",
+  "version"      : "0.0.2",
+  "description"  : "Scrape le web.",
+  "scripts"      : {
+    "start"      : "nodejs server.js"
+  },
+  "author"       : "me",
+  "private"      : true,
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "wait.for"   : "latest",
+    "jade"       : "latest",
+    "stylus"     : "latest",
+    "nib"        : "latest",
+    "morgan"     : "latest",
+    "iconv-lite" : "latest"
+  }
+}

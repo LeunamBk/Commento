@@ -1,0 +1,20 @@
+doctype
+html
+  head
+    meta(http-equiv="content-type", content="#{contentType}; charset=UTF-8")
+    title #{title} - Commento
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/jquery-ui.min.css')
+    script(src='/javascripts/jquery-1.11.3.min.js')
+    script(src='/javascripts/jquery-ui.min.js')
+    script(src='/javascripts/ui.js')
+  body
+    header
+      h1 Commento
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p Running on node with Cheerio, Express, Jade and Stylus
